@@ -1,3 +1,8 @@
+#Extend the above program to sort the array and then find the 2nd largest and the 2nd smallest element.
+
+
+#!/bin/bash -x
+
 for (( i=0; i<=9; i++ ))
 do
 	array[$i]=$((RANDOM%900 + 100 ));
